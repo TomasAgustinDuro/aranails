@@ -1,0 +1,16 @@
+.contenedor {
+  background-color: #bad9eb;
+  border-radius: 1.5em;
+  padding: 1em;
+  text-align: center;
+  margin-top: 1em;
+
+  .telefono,
+  .instagram,
+  .email {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+}

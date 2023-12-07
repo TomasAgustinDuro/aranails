@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <form class="col-lg-4 col-sm-12 mx-auto" (ngSubmit)="guardarOpiniones()">
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          id="nombre"
+          placeholder="Nombre"
+          name="nombre"
+          [(ngModel)]="nombre"
+        />
+      </div>
+      <div class="form-group">
+        <textarea
+          class="form-control"
+          id="exampleTextarea"
+          placeholder="Ingrese su opinión"
+          rows="3"
+          name="textArea"
+          [(ngModel)]="textArea"
+        ></textarea>
+      </div>
+      <div class="alert alert-success" *ngIf="mostrarModalOpinion">
+        Opinión realizada con éxito
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <div class="col-lg-8 col-sm-12">
+      <div
+        class="contenedorOpinion"
+        *ngFor="let opinion of opinionesRealizadas"
+      >
+        <div class="nombreOpinion">{{ opinion["nombre"] }}</div>
+        <div class="textoOpinion">"{{ opinion["texto"] }}"</div>
+      </div>
+    </div>
+  </div>
+</div>

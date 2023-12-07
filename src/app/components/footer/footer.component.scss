@@ -1,0 +1,38 @@
+footer {
+  background-color: #bad9eb;
+  padding: 35px 0;
+  margin-top: 3em;
+
+  div {
+    gap: 2.5em;
+    margin: auto;
+  }
+
+  h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact-info {
+    p {
+      text-align: center;
+      margin-bottom: 10px;
+
+      .contact-label {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .row {
+    text-align: center;
+  }
+}

@@ -1,0 +1,52 @@
+<div class="container">
+  <form class="col-10 col-md-6 mx-auto" (ngSubmit)="buscarTurno()">
+    <label for="nombre">Ingrese su nombre para buscar su turno</label>
+    <div class="formulario">
+      <div class="form-group col-9">
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre"
+          class="form-control"
+          [(ngModel)]="nombre"
+        />
+      </div>
+      <button type="submit" class="btn">Buscar</button>
+    </div>
+
+    <div
+      class="alert alert-danger turnoVacio col-12"
+      *ngIf="mostrarModalCancelar"
+    >
+      No hay ningun turno reservado a su nombre
+    </div>
+
+    <div class="alert alert-success turnoVacio" *ngIf="mostrarModalCancelado">
+      El turno ha sido cancelado
+    </div>
+
+    <div
+      class="contenedorTurnosFiltrados"
+      *ngFor="let turno of coincidencia; let i = index"
+    >
+      <div class="turnos">
+        <div id="nombreTurnos">{{ turno.nombre }} {{ turno.apellido }}</div>
+        <div id="fechaTurno">{{ turno.dia }} {{ turno.hora }}</div>
+      </div>
+      <button class="btn" (click)="eliminarTurno(i)">Cancelar</button>
+    </div>
+  </form>
+
+  <div id="miModal" class="modal">
+    <div class="modal-content">
+      <p>¿Desea cancelar el turno?</p>
+      <button class="btn btn-light" id="btnSi" (click)="btnSiApretado()">
+        Si
+      </button>
+      <button class="btn btn-dark" id="btnNo" (click)="btnNoApretado()">
+        No
+      </button>
+    </div>
+  </div>
+</div>

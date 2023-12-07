@@ -1,0 +1,35 @@
+.container {
+  margin: 1em auto;
+
+  h2 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin: 1em 0;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn {
+    background-color: #bad9eb;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  #cancelar {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+  }
+
+  .alert {
+    margin-top: 1em;
+  }
+}

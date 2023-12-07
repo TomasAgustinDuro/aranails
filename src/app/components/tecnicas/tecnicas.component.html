@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-4 col-sm-4 col-md-3" *ngFor="let servicio of servicios">
+      <div class="card">
+        <img
+          src="assets/Servicios/{{ servicio.img }}.jpeg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title">{{ servicio.nombre }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
