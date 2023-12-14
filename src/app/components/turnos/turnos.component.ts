@@ -59,6 +59,9 @@ export class TurnosComponent {
 
       await this.guardarDatos.guardarDatos('turnos', data);
       this.mostrarModalTurnoConfirmado = true;
+          setTimeout(() => {
+            location.reload();
+          }, 3000);
     } catch (error) {
       console.error('Error al obtener datos de la base de datos:', error);
     }

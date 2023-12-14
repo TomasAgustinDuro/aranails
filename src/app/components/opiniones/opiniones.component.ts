@@ -48,6 +48,9 @@ export class opinionesComponent implements OnInit {
 
       this.nombre = '';
       this.textArea = '';
+      setTimeout(() => {
+        location.reload();
+      }, 3000);
     } catch (error) {
       console.error('Error al obtener datos de la base de datos:', error);
     }

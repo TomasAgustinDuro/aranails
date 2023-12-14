@@ -11,10 +11,10 @@
   .botones {
     display: flex;
     justify-content: space-between;
+    gap: 3em;
     align-items: center;
 
     .btn {
-      margin-top: 1em;
       background-color: #bad9eb;
       border: none;
       color: black;
