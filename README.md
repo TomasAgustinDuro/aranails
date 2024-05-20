@@ -26,8 +26,8 @@
 
 Para obtener más información sobre Aranails o para programar una cita, Araceli está disponible en:
 
-- Correo Electrónico: [araceli.nailss@gmail.com]
-- Instagram: [_araceli.nails]
+- Correo Electrónico: [ araceli.nailss@gmail.com ]
+- Instagram: [ _araceli.nails ]
 
 ¡Gracias por visitar AraNails y por apoyar el emprendimiento de Araceli!
 
