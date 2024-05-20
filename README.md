@@ -1,27 +1,33 @@
-# AppAraceliNails
+# AraNails - Emprendimiento de Uñas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+¡Bienvenido a AraNails! Este proyecto es una plataforma diseñada para el emprendimiento de uñas de Araceli. AraNails ofrece una experiencia interactiva donde los clientes pueden programar citas, explorar los trabajos anteriores, dejar opiniones y más.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Sistema de Reservas**: Los clientes pueden programar fácilmente una cita utilizando el calendario integrado.
+- **Galería de Trabajos**: Explora una galería de imágenes de los trabajos anteriores realizados por Araceli
+- **Opiniones de Clientes**: Los clientes pueden dejar sus opiniones y comentarios sobre la experiencia con AraNails.
+- **Información de Contacto**: Encuentra fácilmente la información de contacto, ubicación y horarios de atención.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Frontend: Angular y TypeScript
+- Backend: Firebase
 
-## Build
+## Cómo Contribuir
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+¡Tu contribución es bienvenida! Si deseas mejorar AraNails, aquí hay algunas formas de hacerlo:
 
-## Running unit tests
+- Reportar errores o problemas abriendo un nuevo issue.
+- Sugerir nuevas características o mejoras abriendo un nuevo issue.
+- Enviar solicitudes de extracción (pull requests) con tus propias mejoras.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contacto
 
-## Running end-to-end tests
+Para obtener más información sobre Aranails o para programar una cita, Araceli está disponible en:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Correo Electrónico: [araceli.nailss@gmail.com]
+- Instagram: [_araceli.nails]
 
-## Further help
+¡Gracias por visitar AraNails y por apoyar el emprendimiento de Araceli!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
