@@ -1,35 +1,96 @@
-.container {
-  margin: 1em auto;
+.contenedor {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1000px;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 10px;
+}
 
-  h2 {
-    text-align: center;
-  }
+.caja {
+  border: 5px solid#bad9eb;
+  border-radius: 10px;
 
-  .form-group {
-    margin: 1em 0;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .botones {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.uno {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  
+}
 
-  .btn {
-    background-color: #bad9eb;
-    border: none;
-    color: black;
-    display: flex;
-    align-items: center;
-  }
+.dos {
+  grid-column: 5/7;
+  grid-row: 1/4;
+}
 
-  #cancelar {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-  }
+.dos img {
+  width: 100%;
+}
 
-  .alert {
-    margin-top: 1em;
-  }
+.tres {
+  grid-column: 7/10;
+  grid-row: 1/2;
+  
+}
+
+.cuatro img {
+  width: 50%;
+  height: 100%;
+}
+
+.cuatro {
+  grid-column: 7/10;
+  grid-row: 2/4;
+  gap: 1em;
+}
+
+.cinco {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  gap: 1em;
+}
+
+.cinco img {
+  width: 50%;
+}
+
+.seis {
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+.siete {
+  grid-column: 1/2;
+  grid-row: 3/5;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.siete img {
+  width: 100%;
+}
+
+.ocho {
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+.nueve {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.diez {
+  grid-column: 4/8;
+  grid-row: 4/5;
+}
+
+.once {
+  grid-column: 8/10;
+  grid-row: 4/5;
 }
