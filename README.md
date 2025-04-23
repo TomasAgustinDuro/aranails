@@ -1,33 +1,60 @@
-# AraNails - Emprendimiento de Uñas
+# 💅 AraNails – Nail Art Web App
 
-¡Bienvenido a AraNails! Este proyecto es una plataforma diseñada para el emprendimiento de uñas de Araceli. AraNails ofrece una experiencia interactiva donde los clientes pueden programar citas, explorar los trabajos anteriores, dejar opiniones y más.
+**AraNails** is a web platform developed for Araceli's nail design business.  
+The app allows clients to explore past work, book appointments, and leave feedback — all in one responsive and stylish interface.
 
-## Características
+This project blends functionality with user experience, designed to support a real-world small business with digital tools.
 
-- **Sistema de Reservas**: Los clientes pueden programar fácilmente una cita utilizando el calendario integrado.
-- **Galería de Trabajos**: Explora una galería de imágenes de los trabajos anteriores realizados por Araceli
-- **Opiniones de Clientes**: Los clientes pueden dejar sus opiniones y comentarios sobre la experiencia con AraNails.
-- **Información de Contacto**: Encuentra fácilmente la información de contacto, ubicación y horarios de atención.
+---
 
-## Tecnologías Utilizadas
+## ✨ Features
 
-- Frontend: Angular y TypeScript
-- Backend: Firebase
+- 📅 **Appointment Booking** – Clients can schedule sessions using an integrated calendar.
+- 🖼️ **Work Gallery** – A visual showcase of previous designs and nail art styles.
+- 💬 **Client Reviews** – Users can leave feedback and rate their experience.
+- 📍 **Contact Info & Location** – Clear display of business hours, address, and links to social platforms.
 
-## Cómo Contribuir
+---
 
-¡Tu contribución es bienvenida! Si deseas mejorar AraNails, aquí hay algunas formas de hacerlo:
+## 🛠️ Tech Stack
 
-- Reportar errores o problemas abriendo un nuevo issue.
-- Sugerir nuevas características o mejoras abriendo un nuevo issue.
-- Enviar solicitudes de extracción (pull requests) con tus propias mejoras.
+- **Frontend**: Angular + TypeScript
+- **Backend**: Firebase (hosting, auth, database)
 
-## Contacto
+---
 
-Para obtener más información sobre Aranails o para programar una cita, Araceli está disponible en:
+## 📈 What I learned
 
-- Correo Electrónico: [ araceli.nailss@gmail.com ]
-- Instagram: [ _araceli.nails ]
+- Building for a real client with specific UX needs.
+- Handling form flows and booking logic in Angular.
+- Using Firebase for quick backend integration without deploying a full server.
+- Managing design and brand consistency in a small-scale product.
 
-¡Gracias por visitar AraNails y por apoyar el emprendimiento de Araceli!
+---
+
+## 🤝 How to contribute
+
+Contributions are welcome! Here’s how you can help:
+
+- 🐛 Report bugs via issues
+- 💡 Suggest features or UI improvements
+- 🔧 Submit pull requests with fixes or enhancements
+
+---
+
+## 📬 Contact & Socials
+
+Want to learn more or book an appointment?
+
+- 📧 Email: [araceli.nailss@gmail.com](mailto:araceli.nailss@gmail.com)  
+- 📸 Instagram: [@_araceli.nails](https://instagram.com/_araceli.nails)
+
+---
+
+## 🙋‍♂️ Author
+
+This project was built to support a local entrepreneur —  
+developed by [Tomás Duro](https://tommasdev.vercel.app), with love from Buenos Aires 🇦🇷
+
+---
 
